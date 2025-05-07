@@ -102,17 +102,11 @@ export default function Navbar({ title = [], routes = [] }) {
     >
       <div className="container mx-auto px-4 sm:px-6 py-3 flex items-center justify-between">
         {/* Logo and Desktop Menu */}
-        <div className="flex items-center flex-1">
-          {/* Logo */}
-          <motion.img
-            src={logo}
-            alt="Logo"
-            className="w-20 h-12 sm:w-25 sm:h-16 cursor-pointer transition-transform duration-300 hover:scale-110"
-            initial={{ opacity: 0, rotate: -10 }}
-            animate={{ opacity: 1, rotate: 0 }}
-            transition={{ duration: 0.5 }}
-            onClick={() => navigate("/")}
-          />
+        <div className="flex items-center flex-1 h-15">
+       
+        <span className="text-xl font-bold text-black">
+          Course<span className="text-blue-600">D</span>
+        </span>
 
           {/* Desktop Menu */}
           <ul className="hidden md:flex space-x-4 lg:space-x-8 text-black font-semibold text-base lg:text-lg ml-4 lg:ml-10">

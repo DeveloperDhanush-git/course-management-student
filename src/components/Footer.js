@@ -12,13 +12,11 @@ export default function Footer({
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Grid Layout */}
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 text-center md:text-left">
-          {/* Logo Section */}
           <div className="flex flex-col items-center md:items-start">
-            <img
-              src={logo}
-              alt="Logo"
-              className="w-28 h-20 cursor-pointer transition-transform duration-300 hover:scale-110"
-            />
+           
+        <span className="text-3xl font-bold text-black ml-2">
+          Course<span className="text-blue-500">D</span>
+        </span>
           </div>
 
           {/* Useful Links Section */}

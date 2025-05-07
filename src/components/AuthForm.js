@@ -178,25 +178,17 @@ const AuthForm = ({ mode }) => {
 
       {/* Mobile Logo (shown only on small screens) */}
       <div className="md:hidden flex items-center mb-8">
-        <img
-          src={tutorlogo}
-          alt="Logo"
-          className="h-20 w-16 cursor-pointer transition-transform duration-300 hover:scale-110"
-        />
+       
         <span className="text-3xl font-bold text-white ml-2">
-          Learn<span className="text-blue-500">Pro</span>
+          Course<span className="text-blue-500">D</span>
         </span>
       </div>
 
       {/* Desktop Logo (shown only on medium screens and up) */}
       <div className="hidden md:flex md:absolute md:left-4 lg:left-10 xl:left-20 items-center">
-        <img
-          src={tutorlogo}
-          alt="Logo"
-          className="h-40 w-32 cursor-pointer transition-transform duration-300 hover:scale-110"
-        />
+       
         <span className="text-[45px] font-bold text-white">
-          Learn<span className="text-blue-500">Pro</span>
+          Course<span className="text-blue-500">D</span>
         </span>
       </div>
 
